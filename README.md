@@ -13,8 +13,10 @@ InfluxDB と Grafana を利用して BitFlyer と Binance でのビットコイ�
 - python 3.8
 - poetry
 
-```bash
-$ poetry install
-$ poetry run inv setup
-$ docker-compose up
-```
+やること
+
+1. `.env.example` を参考に `.env` を作成する
+2. poetry install
+3. poetry run inv setup
+4. docker-compose up
+5. http://localhost:3000 にアクセス
